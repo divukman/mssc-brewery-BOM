@@ -1,1 +1,3 @@
-# mssc-brewery-pom
+# mssc-brewery-bom
+
+Maven BOM for SFG Microservices.
