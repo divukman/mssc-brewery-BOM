@@ -16,6 +16,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Publish package
+        working-directory: ./mssc-brewery-bom
         run: mvn --batch-mode deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
