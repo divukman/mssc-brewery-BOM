@@ -50,7 +50,6 @@
         <awaitility.version>3.1.6</awaitility.version>
     </properties>
 
-
     <dependencyManagement>
         <dependencies>
             <dependency>
