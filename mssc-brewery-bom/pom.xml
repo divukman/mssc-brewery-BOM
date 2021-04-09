@@ -37,13 +37,6 @@
         </developer>
     </developers>
 
-    <scm>
-        <connection>scm:git:git@github.com:divukman/mssc-brewery-BOM.git</connection>
-        <developerConnection>scm:git:ssh://github.com:divukman/mssc-brewery-BOM.git</developerConnection>
-        <url>https://github.com/divukman/mssc-brewery-BOM/tree/branch6_refactoring</url>
-    </scm>
-
-
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -256,5 +249,14 @@
         </plugins>
 
     </build>
+
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/divukman/mssc-brewery-BOM</url>
+        </repository>
+    </distributionManagement>
 
 </project>
